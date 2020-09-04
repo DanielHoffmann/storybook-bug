@@ -1,6 +1,6 @@
 import React from "react";
 
-export function Comp({ children }) {
+export default function Comp({ children }) {
   return <div>{children}</div>;
 }
 
